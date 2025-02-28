@@ -1,2 +1,2 @@
 # translator-module
-Official translator module for Chimera userbot
+Official translator module for Chimera userbot.
