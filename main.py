@@ -2,6 +2,7 @@ from pyrogram import Client, filters
 from googletrans import Translator, LANGUAGES
 TRANSLATOR = Translator()
 
+
 def launch(bot):
     @bot.app.on_message(filters.command('tnt', prefixes='.') & filters.me)
     def tnt(client, message):
