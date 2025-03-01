@@ -3,7 +3,7 @@ from googletrans import Translator, LANGUAGES
 TRANSLATOR = Translator()
 
 
-def launch(bot):
+def launch(bot, module_name):
     @bot.app.on_message(filters.command('tnt', prefixes='.') & filters.me)
     def tnt(client, message):
         data = message.text.split(' ', maxsplit=2)
